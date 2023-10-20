@@ -1,0 +1,39 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #F9B021;
+    cursor: pointer;
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    color: #152B45;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 8px 13px;
+    background-color: #F9B021;
+    width: 100%;
+}
+p{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.uploaded-row{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1b395e;
+}
+.upload-content{
+    display: flex;
+    align-items: center;
+}
